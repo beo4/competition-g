@@ -1,0 +1,7 @@
+import competition.g.competition.Competition
+
+model {
+    Competition competition
+}
+
+json g.render(competition, [deep:true])
